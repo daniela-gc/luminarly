@@ -2,18 +2,21 @@
   "name": "luminarly",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5",
-    "babel-preset-react": "^6.24.1",
+    "@rails/webpacker": "rails/webpacker",
     "caniuse-lite": "^1.0.30000697",
     "js-yaml": "3.12.0",
     "postcss-preset-env": "^6.5.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-on-rails": "11.2.2",
-    "webpack": "^2.2.0"
+    "react-on-rails": "11.2.2"
   },
   "devDependencies": {
-    "webpack-dev-server": "2.11.2"
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   }
 }
