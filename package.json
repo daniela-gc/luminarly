@@ -30,7 +30,6 @@
     "webpack-dev-server": "3.0.0"
   },
   "scripts": { 
-    "postinstall": "cd client && npm install",
     "build": "webpack --mode production"
   },
   "cacheDirectories": [
